@@ -12,7 +12,7 @@
     --accent-color: #fdcf99;
     --font-color: #fff;
 
-    --box-color: #454b4f;
+    --box-color: #242424;
     --border-color: rgba(244, 245, 255, 0.4);
 }
 
@@ -22,7 +22,7 @@ body{
 
     min-height: 100vh;
     overflow-x: hidden;
-    transition: background 0.2s linear;
+    transition: background 0.4s linear;
 }
 
 .content{
