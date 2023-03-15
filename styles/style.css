@@ -7,12 +7,12 @@
 }
 
 :root{
-    --primary-color: black;
+    --primary-color: #393e41;
     --secondary-color: #454b4f;
-    --accent-color: #fdcf99;
+    --accent-color: #487d65;
     --font-color: #fff;
 
-    --box-color: #242424;
+    --box-color: #454b4f;
     --border-color: rgba(244, 245, 255, 0.4);
 }
 
@@ -20,37 +20,39 @@ body{
     background-color: var(--primary-color);
     color: var(--font-color);
 
-    min-height: 100vh;
-    overflow-x: hidden;
-    transition: background 0.4s linear;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.content{
-    padding-left: 8%;
-    padding-right: 8%;
-}
+/* Footer */
 
 footer{
-    padding: 40px;
+    font-size: 12px;
+    padding: 40px 0;
+
+    text-shadow: black 0px 2px 4px;
 }
   
 footer p{
     color: var(--font-color);
-    text-align: center;
-}  
+}
+
+footer a{
+    color: var(--accent-color);
+    text-decoration: none;
+}
 
 .social-links{
     color: var(--font-color);
 
-    align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 12px 0;
 
     list-style: none;
-}
-
-.social-links li{
-    padding: 0 20px 10px 20px;
 }
 
 .link_box svg{
