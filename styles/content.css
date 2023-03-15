@@ -9,7 +9,7 @@
 
 .container h1,
 .container h2{
-    text-shadow: black 0px 2px 4px;
+    text-shadow: black 0px 1px 2px;
 }
 
 .container h2{
@@ -52,7 +52,12 @@
 }
 
 .header{
-    font-size: 32px;
+    background: linear-gradient(to right, var(--accent-color), var(--primary-color));
+    border-radius: 6px;
+
+    padding: 8px 12px;
+
+    font-size: 24px;
     text-transform: uppercase;
 }
 
@@ -86,7 +91,7 @@
     font-family: monospace;
     font-size: 16px;
 
-    text-shadow: black 0px 2px 4px;
+    text-shadow: black 0px 1px 2px;
 }
 
 @media screen and (min-width: 240px) and (max-width: 960px) and (orientation: portrait) {
