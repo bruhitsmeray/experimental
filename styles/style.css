@@ -6,6 +6,12 @@
     padding: 0px;
 }
 
+a{
+    color: var(--accent-color);
+    font-family: monospace;
+    text-decoration: none;
+}
+
 :root{
     --primary-color: #393e41;
     --secondary-color: #454b4f;
@@ -36,11 +42,7 @@ footer{
   
 footer p{
     color: var(--font-color);
-}
-
-footer a{
-    color: var(--accent-color);
-    text-decoration: none;
+    font-family: monospace;
 }
 
 .social-links{
