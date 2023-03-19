@@ -24,7 +24,6 @@
 }
 
 .personal-info h1{
-    align-items: center;
     font-size: 32px;
     display: flex;
 }
@@ -36,7 +35,7 @@
 
     margin: 10px 0 0 0;
     padding: 12px 14px;
-    text-align: center;
+    text-align: left;
 }
 
 .personal-info img{
