@@ -12,16 +12,6 @@ a{
     text-decoration: none;
 }
 
-:root{
-    --primary-color: #383d40;
-    --secondary-color: #454b4f;
-    --accent-color: #3EB489;
-    --font-color: #fff;
-
-    --box-color: #454b4f;
-    --border-color: rgba(244, 245, 255, 0.4);
-}
-
 body{
     background-color: var(--primary-color);
     color: var(--font-color);
@@ -35,7 +25,7 @@ body{
 
 footer{
     font-size: 12px;
-    padding: 40px 0;
+    padding: 4% 0;
 
     text-shadow: black 0px 2px 4px;
 }
@@ -43,6 +33,7 @@ footer{
 footer p{
     color: var(--font-color);
     font-family: monospace;
+    text-align: center;
 }
 
 .social-links{
